@@ -23,16 +23,16 @@
                   Taekyung Ki
                 </p>
                 <p>
-                  I am a 1st year Ph.D. student at <a href="https://www.mlai-kaist.com">KAIST MLAI</a> advised by Prof. <a href='http://www.sungjuhwang.com'>Sung Ju Hwang</a>. 
+                  I am a 1st-year Ph.D. student at <a href="https://www.mlai-kaist.com">KAIST MLAI</a> advised by Prof. <a href='http://www.sungjuhwang.com'>Sung Ju Hwang</a>. 
                   From March 2022 to March 2025, I conducted research on video generation as part of my mandatory military service in South Korea. 
                   I began working in deep learning in February 2021. I received my M.S. in Mathematics in February 2021 and my B.S. in Mathematics in February 2019.
                 </p>
                 <p> I am interested in the following research topics:
                   <ul>
-                      <li>Generative models (<i>score models, flow models, one-step models</i>, etc.)</li>
-                      <li>Foundation video generation models</li>
-                      <li>Conversational virtual avatar agent systems</li>
-                      <li>Audio-visual, vision-language and vision-language-action learning</li>
+                      <li>Generative models (diffusion, flow, forcing, etc.)</li>
+                      <li>Interactive video generative models</li>
+                      <li>Physics-aware and reliable video generation</li>
+                      <li>Efficient post-training (distillation, rl, etc.)</li>
                   </ul>
               </p>
               <p> I am <b>open to research collaborations globally</b>! If the topics above align with your research, feel free to contact me an e-mail. </p>                    
@@ -57,6 +57,7 @@
               <td style="padding:0px;width:100%;vertical-align:middle">
                 <h2>Highlights</h2>
                 <ul>
+                  <!-- <li>[<strong>Jan. 2026</strong>] New preprint out. Avatar Forcing: Diffusion forcing-based interactive head avatar generation model</li> -->
                   <li>[<strong>Sep. 2025</strong>] Starting Ph.D. program at <a href='https://gsai.kaist.ac.kr'>KAIST AI</a></li>
                   <li>[<strong>June 2025</strong>] One paper accepted to <a href="https://iccv.thecvf.com" target="_blank">ICCV 2025</a></li>
                   <li>[<strong>June 2025</strong>] New preprint out. <a href="https://frame-guidance-video.github.io">Frame Guidance</a>; Training-free frame-level guidance method for large video diffusion models
@@ -69,9 +70,42 @@
           </tbody>
         </table>
 <br><br>
-<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <h2>Publications</h2>
   <p> &ast;: Equal contribution, &dagger;: Corresponding author
+    <!-- <tr bgcolor="#ffffd0" style="height:160px;"> -->
+      <td style="padding:10px; width:20%; vertical-align:middle;">
+        <div style="height:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/publication/avatarforcing.gif" style="max-height:100%; max-width:100%; object-fit:contain;" alt="Demo">
+        </div>
+      </td>
+      <td style="padding:10px; width:80%; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; justify-content:center; height:100%;">
+          <div>
+            <a href="">
+              <span class="papertitle">Avatar Forcing: Real-Time Interactive Head Avatar Generation for Natural Conversation</span>
+            </a>
+            <br>
+            <strong>Taekyung Ki<sup>&ast;</sup></strong>,
+            <a href="https://agwmon.github.io">Sangwon Jang<sup>&ast;</sup></a>,
+            <a href="https://harryjo97.github.io"> Jaehyeong Jo</a>,
+            <a href="https://jaehong31.github.io"> Jaehong Yoon</a>,
+            <a href="http://www.sungjuhwang.com"> Sung Ju Hwang<sup>&dagger;</sup></a>
+            <br>
+            <em>Under review</em>, 2025
+            <br>
+            <a href="">Project Page</a> /
+            <a href="">arXiv</a> / 
+            <a href="">Code</a> /
+            <a href="">Hugging Face</a>
+            <p>We introduce a user-interactive head generation model based on motion latent diffusion forcing and a direct preference optimization method for interactive motion.</p>
+          </div>
+        </div>
+      </td>
+    <!-- </tr> -->
+
+
     <tr style="height:160px;">
       <td style="padding:10px; width:20%; vertical-align:middle;">
         <div style="height:100%; display:flex; align-items:center; justify-content:center;">
@@ -105,6 +139,8 @@
         </div>
       </td>
     </tr>
+
+
 
     <tr bgcolor="#ffffd0" style="height:160px;">
       <td style="padding:10px; width:20%; vertical-align:middle;">
@@ -224,11 +260,37 @@
         </div>
       </td>
     </tr>
-  </tbody></table>
+  </tbody>
+</table>
 <br>
-<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 <tbody>
-<!--  -->
+<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <h2>Talks</h2>
+    <tr>
+      <td style="padding:10px; width:20%; vertical-align:middle;">
+        <div style="height:100%; display:flex; align-items:center; justify-content:center;">
+          <img src="assets/talk/talk-2508.png" style="max-height:100%; max-width:100%; object-fit:contain;" alt="Demo">
+        </div>
+      </td>
+      <td style="padding:10px; width:80%; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; justify-content:center; height:100%;">
+          <div>
+            <span class="title"><b>Motion Latent Flow Matching for Real-time Audio-driven Talking Portrait</b></span></a>
+            <br> <a href="https://pika.art">Pika Labs</a>
+            <br> Host: <a href="https://scholar.google.com/citations?user=nEFU7wIAAAAJ&hl=en">Chenlin Meng</a> (CTO)
+            <br> Aug. 2025
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br><br>
+
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr>
@@ -252,7 +314,7 @@
     <td style="padding:0px;width:100%;vertical-align:middle">
       <h2>Academic Services</h2>
       <ul>
-        <li>Reviewer: CVPR 2025, ICCV 2025.</li>
+        <li>Reviewer: CVPR 2025-2026, ICCV 2025.</li>
     </ul>
     </td>
   </tr>
@@ -267,7 +329,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:center;font-size:small;">
-                  This page is based on Jon Barron's <a href="https://github.com/jonbarron/jonbarron_website">website template</a>.
+                  Last updated in December 2025. This page is based on Jon Barron's <a href="https://github.com/jonbarron/jonbarron_website">website template</a>.
                 </p>
                 <br>
               </td>
