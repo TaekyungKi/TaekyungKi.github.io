@@ -139,6 +139,12 @@ h2 {
   .hero-text ul {
     margin-bottom: 0;
   }
+  .media-thumb {
+    width: 35% !important;
+  }
+  .media-info {
+    width: 65% !important;
+  }
 }
 
 .name {
