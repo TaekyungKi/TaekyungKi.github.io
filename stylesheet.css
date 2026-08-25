@@ -104,6 +104,43 @@ h2 {
   font-weight: 700;
 }
 
+.highlights-scroll {
+  max-height: 6.75em;
+  margin-top: 10px;
+  overflow-y: auto;
+}
+
+.highlights-scroll ul {
+  margin: 0;
+}
+
+.highlights-scroll li {
+  line-height: 1.35em;
+}
+
+.collab-mobile-row {
+  display: none;
+}
+
+.collab-mobile-row p:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .collab-desktop {
+    display: none;
+  }
+  .collab-mobile-row {
+    display: table-row;
+  }
+  .hero-text {
+    padding-bottom: 3% !important;
+  }
+  .hero-text ul {
+    margin-bottom: 0;
+  }
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
